@@ -1,0 +1,41 @@
+.appbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .appbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .appbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .appbar-nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .donate-btn {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }

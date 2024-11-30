@@ -1,0 +1,134 @@
+/* src/components/HomePage.css */
+
+/* General Layout */
+.homepage {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  background-image: url('../images/donation.jpeg');
+  background-size: cover;
+  padding: 100px 20px;
+  color: white;
+}
+
+.hero-section h1 {
+  font-size: 40px;
+}
+
+.hero-section .donate-btn {
+  margin-top: 20px;
+  background-color: #ff6b6b;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Featured Campaigns Section */
+.campaigns {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.campaign-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.campaign-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.campaign-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.campaign-card p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Categories Section */
+.categories {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.category-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.category-card {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.category-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* How It Works Section */
+.how-it-works {
+  padding: 40px 20px;
+}
+
+.how-it-works-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.how-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
